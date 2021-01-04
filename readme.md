@@ -1,12 +1,10 @@
-## python-putz
+## putz
 
 A CLI tool and Python module for putzing around and discovering new Python libraries.
 
 Relies heavily on [pypi-search](https://github.com/asadmoosvi/pypi-search), because PyPI has recently deprecated its main lookup API and retrieving results currently requires screen-scraping 😱!
 
 Currently this (ab)uses PyPI's "Trending" relevance ranking, which is not otherwise exposed or explained, in order to return libraries that are likely to be well-maintained. Right now there is no better way to do a fully serendiptious search of Python packages; results are no doubt somewhat biased by this.
-
-Made during my first day at the Recurse Center (Winter 2 2021) to get my brain warmed up!
 
 ## Installation
 
