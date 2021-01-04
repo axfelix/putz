@@ -16,6 +16,13 @@ pip install putz
 
 Just run `putz`. It'll open a browser window to a randomly-selected, not-abandoned library from PyPI.
 
+## Building and Releasing
+
+This is pretty standard stuff, but it doesn't hurt to list it here (requires setuptools, wheel, twine; the usual):
+
+`python setup.py sdist bdist_wheel`
+`twine upload dist/*`
+
 ## FAQ
 
 ### Why did you start this project?
