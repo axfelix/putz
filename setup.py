@@ -3,6 +3,9 @@
 from setuptools import setup
 import sys
 
+with open("readme.md", "r", encoding="utf-8") as fh:
+    long_description = fh.read()
+
 install_requires = ["setuptools", "docopt", "pypi_search"]
 
 if sys.version_info < (3, 5):
@@ -13,6 +16,8 @@ setup(
     python_requires=">3.5.0",
     version="1.0",
     description="A module for putzing around with Python.",
+    long_description=long_description,
+    long_description_content_type="text/markdown",
     license="MIT",
     author="Alex Garnett",
     author_email="axfelix@gmail.com",
