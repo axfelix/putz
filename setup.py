@@ -14,7 +14,7 @@ if sys.version_info < (3, 5):
 setup(
     name="putz",
     python_requires=">3.5.0",
-    version="1.0",
+    version="1.0.1",
     description="A module for putzing around with Python.",
     long_description=long_description,
     long_description_content_type="text/markdown",
